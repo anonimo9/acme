@@ -1,0 +1,16 @@
+body {
+    padding-top: 50px;
+}
+
+.bigger-icon {
+    font-size: 40px;
+}    
+
+.infor {
+    padding: 40px;
+}
+
+footer {
+    background-color: #555;
+    color: #eee;
+}

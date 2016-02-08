@@ -1,0 +1,21 @@
+{
+    "name": "web/acme",
+    "authors": [
+        {
+            "name": "Mantas Grauzinis",
+            "email": "me@here.ca"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.0",
+        "vlucas/phpdotenv": "^2.2",
+        "illuminate/events": "^5.2",
+        "altorouter/altorouter": "1.1.0",
+        "illuminate/database": "^5.2",
+        "respect/validation": "^1.0",
+        "twig/twig": "~1.0"
+    },
+    "autoload": {
+        "psr-4": { "Acme\\": "src/" }
+    }
+}
