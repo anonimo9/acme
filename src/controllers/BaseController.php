@@ -1,7 +1,5 @@
 <?php namespace Acme\Controllers;
 
-use duncan3dc\Laravel\BladeInstance;
-
 class BaseController {
     // TWIG TEMPLATE    
     protected $loader;
