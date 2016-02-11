@@ -6,6 +6,8 @@ use Acme\Validation\Validator;
 class RegisterController extends BaseController {
     
     public function getShowRegisterPage() {
+        $users = User::find(1)->testimonials()->get();
+        
         echo $this->twig->render('register.html');
     }
     
@@ -43,10 +45,9 @@ class RegisterController extends BaseController {
         $user->first_name = $_POST['first_name'];
         $user->last_name = $_POST['last_name'];
         $user->save();
-    }
-    
-    public function getShowLoginPage() {
-        echo $this->twig->render('login.html');
+        
+        header("Location: /success");
+        exit();
     }
     
 }

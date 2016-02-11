@@ -13,7 +13,10 @@
         "altorouter/altorouter": "1.1.0",
         "illuminate/database": "^5.2",
         "respect/validation": "^1.0",
-        "twig/twig": "~1.0"
+        "twig/twig": "~1.0",
+        "robmorgan/phinx": "^0.5.1",
+        "cocur/slugify": "^1.4",
+        "swiftmailer/swiftmailer": "^5.4"
     },
     "autoload": {
         "psr-4": { "Acme\\": "src/" }
